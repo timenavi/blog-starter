@@ -3,58 +3,50 @@ import { BlogPost } from '@/types/blog';
 export const posts: BlogPost[] = [
   {
     id: 1,
-    slug: 'getting-started-with-nextjs',
-    title: 'Getting Started with Next.js',
+    slug: 'introduction-to-artificial-intelligence',
+    title: 'Introduction to Artificial Intelligence',
     author: 'Jane Smith',
     date: '2023-04-10T14:30:00Z',
     summary:
-      "A beginner's guide to building web applications with Next.js, a popular React framework.",
-    content: `Next.js is a powerful framework for building server-rendered React applications. In this blog post, we'll explore the basics of setting up a new Next.js project, creating pages and components, and deploying your application.
+      'An overview of artificial intelligence, its history, and its role in modern technology.',
+    content: `Artificial intelligence (AI) is a rapidly growing field that involves the creation of machines and software capable of intelligent behavior. In this blog post, we'll explore the history of AI, its fundamental concepts, and its impact on various industries.
 
-To get started, you'll need to have Node.js installed on your computer. Once you have Node.js installed, you can create a new Next.js project by running the following command: npx create-next-app my-next-app. This will create a new folder called "my-next-app" containing the necessary files and dependencies for your project.
-
-Now, let's dive into the structure of a Next.js application...`,
+AI has its roots in the early days of computing when researchers started to develop algorithms that could mimic human intelligence...`,
   },
   {
     id: 2,
-    slug: 'introduction-to-typescript',
-    title: 'Introduction to TypeScript',
+    slug: 'machine-learning-basics',
+    title: 'Machine Learning Basics',
     author: 'John Doe',
     date: '2023-04-20T10:15:00Z',
     summary:
-      'Learn the basics of TypeScript, a statically-typed superset of JavaScript that brings type safety to your code.',
-    content: `TypeScript is a popular programming language that builds on JavaScript by adding static types. By using TypeScript, you can catch errors early during development and improve the overall quality of your code.
+      'An introduction to machine learning, its core principles, and popular algorithms.',
+    content: `Machine learning, a subset of artificial intelligence, focuses on building algorithms that enable computers to learn from and make decisions based on data. In this blog post, we'll cover the basic principles of machine learning, its main types, and some popular algorithms used in the field.
 
-To get started with TypeScript, you'll first need to install the TypeScript compiler globally on your computer by running the following command: npm install -g typescript.
-
-Now that you have the TypeScript compiler installed, let's go over some of the fundamental concepts in TypeScript, such as types, interfaces, and classes...`,
+Machine learning involves training a model using data to make predictions or decisions...`,
   },
   {
     id: 3,
-    slug: 'responsive-design-with-tailwind-css',
-    title: 'Responsive Design with Tailwind CSS',
+    slug: 'deep-learning-and-neural-networks',
+    title: 'Deep Learning and Neural Networks',
     author: 'Alice Johnson',
     date: '2023-04-30T08:45:00Z',
     summary:
-      'Discover how to create responsive designs easily using utility-first CSS framework Tailwind CSS.',
-    content: `Tailwind CSS is a popular utility-first CSS framework that makes it easy to create responsive designs without writing custom CSS. With Tailwind CSS, you can build modern, responsive layouts by combining utility classes directly in your HTML.
+      'A beginner-friendly guide to deep learning and neural networks, including their architecture and applications.',
+    content: `Deep learning is a subfield of machine learning that focuses on neural networks with many layers. These deep neural networks can learn complex patterns and representations from large amounts of data. In this blog post, we'll go over the fundamentals of deep learning, the architecture of neural networks, and their applications in various domains.
 
-To get started with Tailwind CSS, you'll need to install it as a dependency in your project by running the following command: npm install tailwindcss.
-
-Once you have Tailwind CSS installed, you can start using its utility classes in your HTML or JSX files. Let's go over some of the key concepts and features of Tailwind CSS, such as breakpoints, container, and flexbox utilities...`,
+A neural network consists of interconnected layers of neurons, or nodes...`,
   },
   {
     id: 4,
-    slug: 'building-a-restful-api-with-nodejs-and-express',
-    title: 'Building a RESTful API with Node.js and Express',
+    slug: 'natural-language-processing',
+    title: 'Natural Language Processing',
     author: 'Bob Martin',
     date: '2023-05-01T17:00:00Z',
     summary:
-      'Learn how to create a RESTful API using Node.js and the Express framework.',
-    content: `In this blog post, we will explore how to build a RESTful API using Node.js and Express, a popular web framework for Node.js.
+      'An introduction to natural language processing (NLP), its techniques, and applications.',
+    content: `Natural language processing (NLP) is a branch of artificial intelligence that focuses on the interaction between computers and human languages. In this blog post, we'll explore the basics of NLP, its key techniques, and its applications in various industries.
 
-To get started, you'll need to have Node.js installed on your computer. Once you have Node.js installed, you can create a new Node.js project by running the following command: npm init -y. This will generate a new package.json file in your project folder.
-
-Next, let's install Express and other necessary dependencies for our API...`,
+NLP involves the development of algorithms that can understand, interpret, and generate human language in a way that is both meaningful and useful...`,
   },
 ];
